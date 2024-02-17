@@ -8,6 +8,7 @@ public class LinkedList1 {
             this.data=data;
             this.next=null;
         }
+
     }
     public static Node head;
     public static Node tail;
