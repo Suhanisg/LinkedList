@@ -9,12 +9,16 @@ public class Main1 {
         ll.addLast(4);
         ll.addMiddle(2,6);
         ll.print();
-        ll.removeFirst();     // print for removing first element
-        ll.print();
+        System.out.println(ll.SearchKey(3));
+        ll.print();             // print for SearchKey
+        ll.removeFirst();
+        ll.print();            // print for removing first element
         ll.removeLast();
         ll.print();           //print for removing last element
         ll.reverse();
         ll.print();
+
+
 
     }
 
