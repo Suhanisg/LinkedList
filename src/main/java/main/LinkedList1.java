@@ -96,6 +96,18 @@ public class LinkedList1 {
             head = prev;
         }
     }
+    public int SearchKey(int key){
+        Node temp=head;
+        int i=0;
+        while(temp!=null){
+            if (temp.data==key) {
+                return i;
+            }
+            temp=temp.next;
+            i++;
+        }
+        return -1;
+    }
     public void print(){
         Node temp=head;
         while(temp!=null){
